@@ -1,7 +1,7 @@
 {
+  "homepage": "https://FernandoValentim43.github.io/React-Login-Page/",
   "name": "react-app",
   "private": true,
-  "homepage": "https://FernandoValentim43.github.io/React-Login-Page",
   "version": "0.0.0",
   "scripts": {
     "predeploy": "npm run build",
