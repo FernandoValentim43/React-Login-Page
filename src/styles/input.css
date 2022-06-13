@@ -21,8 +21,16 @@
   width: 480px;
 }
 
+.button {
+  width: 50%;
+  background-color: #FF4B4B;
+}
 
-input[type=text] {
+.ckbox {
+  background-color: #FF4B4B;
+}
+
+input:not([type=checkbox]) {
   height: 30px;
   width: 100%;
   height: 40px;
@@ -30,10 +38,6 @@ input[type=text] {
   border: 2.3px solid #aaaaaa;
   text-indent: 9px;
   font-size: 1rem;
-}
-
-input textarea {
-  color: #aaaaaa;
 }
 
 p {

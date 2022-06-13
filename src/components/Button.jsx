@@ -1,5 +1,7 @@
-export default function Button() {
+export default function Button(props) {
     return (
-         <button>Register</button>
+          <div class={props.tag}>
+            <button>{props.name}</button>
+          </div>
     );
   }

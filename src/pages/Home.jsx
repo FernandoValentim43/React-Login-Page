@@ -1,14 +1,17 @@
-import { Card } from "../styles/card.js"; //card styled-component
-import { Check } from "../styles/checkbox.js"; //card styled-component
+import "../styles/input.css";
+
+//styled-components
+import { Card } from "../styles/styledComponents/card.js"; //card styled
+import { Check } from "../styles/styledComponents/check.js" ; // checkbox style
+import { ButtomStyle } from "../styles/styledComponents/buttomStyle.js" ; // checkbox style
 
 
+
+//react-components
 import CardHead from "../components/CardHead"; //img and title
 import Input from "../components/Input"; //inputs
-import CheckBox from "../components/checkbox.jsx";
-import Button from "../components/Button";
-
-
-import "../styles/input.css";
+import CheckBox from "../components/checkbox.jsx"; //checkbox item
+import Button from "../components/Button.jsx";
 
 
 export default function Home() {
@@ -34,11 +37,14 @@ export default function Home() {
        </div>
 
        <div className="last-container">
-          <Check>
-            <CheckBox/>
-          </Check>
-          
-          <Button/>
+        <Check >
+          <CheckBox tag="ckbox"/>  
+        </Check>
+
+        <ButtomStyle >
+          <Button tag="button" name="Register"/>
+        </ButtomStyle>
+        
        </div>
 
 

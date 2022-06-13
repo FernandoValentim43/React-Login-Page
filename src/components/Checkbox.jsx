@@ -3,8 +3,7 @@ export default function CheckBox() {
     <div>
       <label>
         <input type="checkbox" />
-        My Value
-       </label>
+      </label>
     </div>
   );
 }
