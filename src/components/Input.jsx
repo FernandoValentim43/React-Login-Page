@@ -1,10 +1,10 @@
 
 export default function Input(props) {
     return (
-        <div className="input-conainter">
+        <div>
             <p>{props.name}</p>
-            <input type={props.type} placeholder={props.placeholder}/>
-            <p class="error">{props.error}</p>
+            <input tag={props.class} type={props.type} placeholder={props.placeholder}/>
+            <p className="error">{props.error}</p>
         </div>
     )
 }
