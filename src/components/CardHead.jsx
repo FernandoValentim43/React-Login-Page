@@ -1,6 +1,3 @@
-
-import '../styles/cardHead.css'
-
 export default function CardHead(props) {
   return (
         <div className="card-hard">
