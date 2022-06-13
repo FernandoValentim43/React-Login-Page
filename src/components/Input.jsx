@@ -1,7 +1,9 @@
-export default function Input() {
+import '../styles/input.css'
+export default function Input(props) {
     return (
         <div className="input-conainter">
-            <input type="text" placeholder="name"/>
+            <p>{props.name}</p>
+            <input type={props.type} placeholder={props.placeholder}/>
         </div>
     )
 }
