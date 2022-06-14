@@ -12,6 +12,7 @@ import CheckBox from "../components/checkbox.jsx"; //checkbox item
 import Button from "../components/Button.jsx";
 
 
+
 export default function Home() {
   return (
    <section>
@@ -31,6 +32,7 @@ export default function Home() {
        </div>
 
        <div className="third-container">
+        
         <Input tag="phone" name="Phone" type="tel" placeholder="(83) 00000-0000" error="Phone Invalid" />
         <Input name="Birthday * " type="date" error="Age Invalid" />
        </div>
