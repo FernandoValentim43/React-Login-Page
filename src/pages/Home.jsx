@@ -5,8 +5,6 @@ import { Card } from "../styles/styledComponents/card.js"; //card styled
 import { Check } from "../styles/styledComponents/check.js" ; // checkbox style
 import { ButtomStyle } from "../styles/styledComponents/buttomStyle.js" ; // checkbox style
 
-
-
 //react-components
 import CardHead from "../components/CardHead"; //img and title
 import Input from "../components/Input"; //inputs
@@ -16,7 +14,8 @@ import Button from "../components/Button.jsx";
 
 export default function Home() {
   return (
-    <Card>
+   <section>
+     <Card>
       <CardHead title="Intern Sign Up" />
 
       <div className="input-container">
@@ -37,13 +36,18 @@ export default function Home() {
        </div>
 
        <div className="last-container">
-        <Check >
-          <CheckBox tag="ckbox"/>  
-        </Check>
 
-        <ButtomStyle >
+        <div className="checkbox-div">
+        <Check>
+          <CheckBox/>  
+        </Check>
+        </div>
+
+       <div className="button-div">
+         <ButtomStyle >
           <Button tag="button" name="Register"/>
         </ButtomStyle>
+       </div>
         
        </div>
 
@@ -51,5 +55,6 @@ export default function Home() {
 
       </div>
     </Card>
+   </section>
   );
 }
