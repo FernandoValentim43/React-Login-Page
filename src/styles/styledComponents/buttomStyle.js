@@ -1,6 +1,5 @@
 import styled from "styled-components";
 export const ButtomStyle = styled.section`
-
 button {
     cursor: pointer;
     font-size: 1.1em;
@@ -9,6 +8,13 @@ button {
     border-radius: 8px;
     border: none;
     background-color: #0DBDBD;
+}
+
+
+.sucess{
+    margin-top: 15vh;
+    font-size: 1.8em;
+    padding: 50px;
 }
 
 `;

@@ -10,6 +10,7 @@ import CardHead from "../components/CardHead"; //img and title
 import Input from "../components/Input"; //inputs
 import CheckBox from "../components/checkbox.jsx"; //checkbox item
 import Button from "../components/Button.jsx";
+import MaskedInput from "../components/InputMaskTel";
 
 
 
@@ -33,7 +34,8 @@ export default function Home() {
 
        <div className="third-container">
         
-        <Input tag="phone" name="Phone" type="tel" placeholder="(83) 00000-0000" error="Phone Invalid" />
+        {/* <Input tag="phone" name="Phone" type="tel" placeholder="(83) 00000-0000" error="Phone Invalid" /> */}
+        <MaskedInput name="Phone" placeholder="(83) 00000-0000" error="Phone Invalid" />
         <Input name="Birthday * " type="date" error="Age Invalid" />
        </div>
 
@@ -46,7 +48,7 @@ export default function Home() {
         </div>
 
        <div className="button-div">
-         <ButtomStyle >
+         <ButtomStyle color="red" >
           <Button tag="button" name="Register"/>
         </ButtomStyle>
        </div>
