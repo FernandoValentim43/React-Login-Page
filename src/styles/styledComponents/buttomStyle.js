@@ -8,13 +8,14 @@ button {
     border-radius: 8px;
     border: none;
     background-color: #0DBDBD;
+    text-align: center;
 }
 
 
 .sucess{
     margin-top: 15vh;
     font-size: 1.8em;
-    padding: 50px;
+    padding: 35px;
 }
 
 
@@ -22,7 +23,17 @@ button {
     button {
         width: 100%;
         padding: 20px;
+        
     }
+
+    .returnButton {
+        width: 70vw;
+    }
+
+    .returnButton button {
+        padding: 25px;
+    }
+
 }
 
 `;

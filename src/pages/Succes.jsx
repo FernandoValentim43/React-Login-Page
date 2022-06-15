@@ -17,7 +17,7 @@ export default function Sucess() {
        <Card>
         <CardHead title="Sucess!" />
         <ButtomStyle >
-          <ReturnButton tag="sucess" name="Go Back!"/>
+          <ReturnButton name="Go Back!"/>
         </ButtomStyle>
        </Card>
      </section>

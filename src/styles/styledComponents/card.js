@@ -53,6 +53,10 @@ export const Card = styled.section`
       margin-bottom: 4vh;
     }
 
+    img {
+      width: 40vw;
+    }
+
     
   }
 
