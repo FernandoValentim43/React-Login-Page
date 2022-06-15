@@ -16,7 +16,7 @@ export const Card = styled.section`
   
   width: 583.5px;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255);
+  background-color: #FFFFFF;
   }
 
 
@@ -33,4 +33,23 @@ export const Card = styled.section`
     margin-top: 5px;
     margin-bottom: 0px;
   }
+
+
+
+
+
+  
+  @media(max-width: 768px) {
+    & { 
+      width: 70vw;
+    }
+
+    .card-head {
+      margin-bottom: 4vh;
+    }
+
+  }
+
+
+
 `;

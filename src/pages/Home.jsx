@@ -16,7 +16,7 @@ import MaskedInput from "../components/InputMaskTel";
 
 export default function Home() {
   return (
-   <section>
+   <section className="section">
      <Card>
       <CardHead title="Intern Sign Up" />
 
@@ -35,8 +35,8 @@ export default function Home() {
        <div className="third-container">
         
         {/* <Input tag="phone" name="Phone" type="tel" placeholder="(83) 00000-0000" error="Phone Invalid" /> */}
-        <MaskedInput name="Phone" placeholder="(83) 00000-0000" error="Phone Invalid" />
-        <Input name="Birthday * " type="date" error="Age Invalid" />
+        <MaskedInput tag="phone" name="Phone" placeholder="(83) 00000-0000" error="Phone Invalid" />
+        <Input tag="age" name="Birthday * " type="date" error="Age Invalid" />
        </div>
 
        <div className="last-container">

@@ -3,11 +3,11 @@ import InputMask from "react-input-mask";
 
 const MaskedInput = (props) => {
   return (
-    <>
+    <div>
       <p>{props.name}</p>
-      <InputMask mask="(99) 99999 9999" />
+      <InputMask className = {props.tag} mask="(99) 99999 9999" />
       <p className="error">{props.error}</p>
-    </>
+    </div>
   );
 };
 

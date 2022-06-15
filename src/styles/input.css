@@ -2,19 +2,24 @@
   display: flex;
   flex-wrap: wrap;
   width: 480px;
+
 }
 
 .first-container {
   width: 100%;
+
 }
 
 .second-container {
   width: 65%;
   margin-right: 5%;
+
+
 }
 
 .third-container {
   width: 30%;
+
 }
 
 .last-container {
@@ -23,6 +28,7 @@
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 49px;
+
 }
 
 .checkbox-div {
@@ -61,3 +67,70 @@ p {
 
   visibility: visible;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .section {
+    width: auto;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: #838282;
+  }
+  
+  .error {
+     visibility: hidden;
+  }
+
+  input:not([type=checkbox]) {
+    height: 45px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+  }
+
+  .first-container {
+    width: 100%;
+  }
+
+  .second-container {
+    width: 100%;
+    margin-right: 0px;
+
+  }
+
+  
+  .third-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+
+  .third-container input {
+  
+    background-color: #FF4B4B;
+    width: 160px;
+  }
+
+  .last-container {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 49px;
+
+  }
+}
+
+  
