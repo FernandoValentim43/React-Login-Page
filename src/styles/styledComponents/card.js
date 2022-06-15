@@ -27,19 +27,24 @@ export const Card = styled.section`
     padding-top: 50px;
   }
 
+
+  img {
+    max-width: 270px
+  }
+
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 0px;
   }
 
-
-
-
-
-  
   @media(max-width: 768px) {
+
+    h2 {
+      font-size: 8vw;
+    }
+
     & { 
       width: 70vw;
     }
@@ -48,6 +53,7 @@ export const Card = styled.section`
       margin-bottom: 4vh;
     }
 
+    
   }
 
 

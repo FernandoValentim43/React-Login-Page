@@ -72,7 +72,7 @@ p {
   }
 
   p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #838282;
   }
   
@@ -81,7 +81,7 @@ p {
   }
 
   input:not([type="checkbox"]):not([type=button]) {
-    height: 45px;
+    height: 35px;
   }
   
   .input-container {
@@ -91,11 +91,11 @@ p {
   }
 
   .first-container {
-    width: 100%;
+    width: 98.5%;
   }
 
   .second-container {
-    width: 100%;
+    width: 98.5%;
     margin-right: 0px;
 
   }
@@ -104,22 +104,20 @@ p {
   .third-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
   }
  
-  .Phone {
-    margin-right: 30px;
-  }
+  
 
-  .Birthday {
-  margin-left: 22px;
+  .Phone {
+    margin-right: 4px;
   }
   
 
   .third-container input {
-      width: 30%px;
+      width: 30vw;
   }
 
   .last-container {
