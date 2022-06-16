@@ -29,7 +29,7 @@ export const Card = styled.section`
 
 
   img {
-    max-width: 270px
+    max-width: 240px
   }
 
   h2 {
