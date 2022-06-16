@@ -5,7 +5,7 @@ import Sucess from './pages/Succes.jsx'
 
 function App() {
   return (
-    <Sucess/>
+    <Home/>
   )
 }
 
