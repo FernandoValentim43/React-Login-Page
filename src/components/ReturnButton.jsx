@@ -1,7 +1,11 @@
-export default function (props) {
+import { useNavigate } from "react-router-dom";
+
+ 
+ export default function returnButton(props) {
+  let navigate = useNavigate();
     return (
           <div className="returnButton">
-            <button className="sucess">{props.name}</button>
+            <button className="sucess"  onClick={() => {navigate("/")}}>{props.name}</button>
           </div>
     );
   }

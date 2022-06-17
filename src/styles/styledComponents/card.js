@@ -20,7 +20,6 @@ export const Card = styled.section`
   }
 
 
-
   .img-section {
     display: flex;
     justify-content: center;

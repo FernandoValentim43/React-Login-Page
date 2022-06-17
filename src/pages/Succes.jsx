@@ -9,9 +9,8 @@ import ReturnButton from "../components/ReturnButton.jsx";
 
 
 
-
-
 export default function Sucess() {
+
     return (
      <section>
        <Card>
