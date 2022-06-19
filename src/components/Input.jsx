@@ -2,6 +2,7 @@ export default function Input(props) {
     return (
     <div className={props.className}>
       <p>{props.name}</p>
+
       <input
         name={props.name}
         className={props.className}
@@ -11,7 +12,8 @@ export default function Input(props) {
         required={true}
         pattern={props.pattern}
         min={props.min}
-              />
+        />
+
       <p className="error">{props.error}</p>
     </div>
   );

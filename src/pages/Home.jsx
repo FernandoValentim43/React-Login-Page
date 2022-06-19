@@ -31,7 +31,7 @@ let navigate = useNavigate();
                 type="text"
                 placeholder="Name"
                 error="Fullname Invalid"
-                pattern="^\b(?!.*?\s{2})[A-Za-z ]{4,50}\b$"
+                pattern="^\b(?!.*?\s{2})[A-Za-z ]{4,50}\b"
               />
             </div>
 
@@ -72,11 +72,11 @@ let navigate = useNavigate();
             <div className="last-container">
               <div className="checkbox-div">
                 <Check>
-                  <CheckBox />
+                  <CheckBox visible="hidden"/>
                 </Check>
               </div>
               <div className="button-div">
-                <ButtomStyle color="red">
+                <ButtomStyle>
                   <Button className="button" name="Register"/>
                 </ButtomStyle>
               </div>
