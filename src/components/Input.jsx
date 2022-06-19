@@ -12,6 +12,7 @@ export default function Input(props) {
         required={true}
         pattern={props.pattern}
         min={props.min}
+        autoComplete="off"
         />
 
       <p className="error">{props.error}</p>

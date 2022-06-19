@@ -63,7 +63,7 @@ p {
   visibility: hidden;
 }
 
-input:invalid ~ .error {
+input:focus:invalid ~ .error {
   visibility: visible;
 }
 
@@ -79,22 +79,21 @@ input:invalid ~ .error {
     color: #838282;
   }
   
-  .error {
-     visibility: hidden;
-  }
-
   input:not([type="checkbox"]):not([type=button]) {
     height: 35px;
+    margin-bottom: 15px;
   }
   
   .input-container {
     display: flex;
     flex-wrap: wrap;
     width: 70vw;
+    
   }
 
   .first-container {
     width: 98.5%;
+    
   }
 
   .second-container {
@@ -112,7 +111,6 @@ input:invalid ~ .error {
     justify-content: space-between;
   }
  
-  
 
   .Phone {
     margin-right: 4px;
@@ -133,8 +131,15 @@ input:invalid ~ .error {
 
   }
 
-  
+  .error {
+    display: none;
+ }
 
+  .checkError {
+    display: none;
+  }
+
+  
   
 }
 
