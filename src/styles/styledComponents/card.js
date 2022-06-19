@@ -23,7 +23,7 @@ export const Card = styled.section`
   .img-section {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 10px;
   }
 
 
