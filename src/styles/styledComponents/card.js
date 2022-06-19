@@ -23,7 +23,7 @@ export const Card = styled.section`
   .img-section {
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+   padding-top: 50px
   }
 
 
@@ -56,7 +56,11 @@ export const Card = styled.section`
       width: 40vw;
     }
 
-    
+    .img-section {
+      margin-top: 10px
+      padding-top:0px;      
+    }
+  
   }
 
 
