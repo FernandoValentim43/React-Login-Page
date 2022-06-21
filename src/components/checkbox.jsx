@@ -9,8 +9,7 @@ const useVisibility = (component, visibility = false) => {
 export default function CheckBox()  {
 const [pElement, togglePvisibility] = useVisibility(
   <p className="checkError">You must accept the terms</p>, true)
-
-  return (
+return (
       <div>
         <label>
           <input type="checkbox" required={true}
